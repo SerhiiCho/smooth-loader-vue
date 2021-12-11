@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import TippyVue from './plugins/tippyjs-vue'
+import SmoothLoader from './plugins/smooth-loader-vue'
 
-createApp(App).use(TippyVue).mount('#app')
+createApp(App).use(SmoothLoader).mount('#app')

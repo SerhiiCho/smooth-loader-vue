@@ -2,7 +2,7 @@ import type { App, Plugin } from 'vue'
 
 const plugin: Plugin = {
     install: (app: App) => {
-        app.component('')
+        app.component('SomeComponent', NiceOne)
     }
 }
 

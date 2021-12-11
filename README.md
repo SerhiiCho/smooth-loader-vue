@@ -1,11 +1,22 @@
-# Vue 3 + Typescript + Vite
+# Smooth loader for Vue 3
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+[Smooth loader](https://github.com/SerhiiCho/smooth-loader) allows you smoothly lazy load images and background images. Lazy Loading defers the loading of an image that is not needed on the page immediately. An image, not visible to the user when the page loads, is loaded later when the user scrolls and the image actually becomes visible. If the user never scrolls, an image that is not visible to the user never gets loaded.
 
-## Recommended IDE Setup
+- [🚀 Installation](#)
+- [🖲 Usage](#)
+- [🧬 Props](#)
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+## 🚀 Installation
 
-## Type Support For `.vue` Imports in TS
+```bash
+# npm
+npm i @smooth-loader/vue
+# Yarn
+yarn add @smooth-loader/vue
+```
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+
+## 🖲 Usage
+
+
+## 🧬 Props
